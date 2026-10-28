@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run demo (synthetic data)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/run_analysis.py",
+      "args": ["--demo"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Run on real dataset (edit args)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/run_analysis.py",
+      "args": ["--data", "data/your_dataset.csv", "--target", "dropout_status", "--name", "Dataset name and citation"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}

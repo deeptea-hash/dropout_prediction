@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+# OS / editor
+.DS_Store
+Thumbs.db
+# Generated results (re-create by running the code)
+outputs/*
+!outputs/.gitkeep
+# Datasets (large / licensed - do not commit; see data/README.md)
+data/*
+!data/README.md
+!data/.gitkeep
